@@ -1,0 +1,21 @@
+/.github
+.gemini
+/.ignore
+/.venv
+/.vscode
+/clairvoyant.code-workspace
+/__pycache__
+/*/*__pycache__
+/*.pyc
+# Ignore generated files and folders
+/data/
+/logs/run_*
+/models/base_*
+/models/feature_*
+/models/features_*
+/models/meta_*
+/models/target_*
+/predictions/*
+/sentiment/*
+# Ignore environment files containing secrets
+.env
