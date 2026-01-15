@@ -18,7 +18,7 @@ class IntelligentWhaleScanner:
     
     def __init__(self, whale_threshold=250_000, hours_back=6, decay_lambda=0.5):
         self.ws_url = "wss://xrplcluster.com/"
-        self.api_url = "https://api.xrpscan.com/api/v1/names/well-known"
+        self.api_url = "https://api.xrpscan.com/api/v1/accounts/well-known"
         
         self.exchange_addresses: Set[str] = set()
         self.exchange_name_map: Dict[str, str] = {}
