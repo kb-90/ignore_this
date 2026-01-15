@@ -1,0 +1,24 @@
+# IDE and Environment
+.vscode/
+.venv/
+clairvoyant/.venv/
+clairvoyant/.vscode/
+clairvoyant/.github/
+clairvoyant/.gemini/
+*.code-workspace
+
+# Python artifacts
+**/__pycache__/
+**/*.pyc
+
+# Clairvoyant Data & Models (Keep the repo lean)
+clairvoyant/data/
+clairvoyant/logs/
+clairvoyant/models/
+clairvoyant/predictions/
+clairvoyant/sentiment/
+
+# SECRETS (CRITICAL)
+**/.env
+old_okx_example/.env
+old_okx_example/.github/
